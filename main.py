@@ -64,8 +64,8 @@ def brute(broker, port, userfile, passfile, usernames, passwords):
             print("[+]正在测试: username:"+user+" "+"password:"+passwd)
             client.username_pw_set(username=user, password=passwd)
             client.connect(broker, port)
-            time.sleep(0.5)
             client.loop_start()
+            time.sleep(0.5)
             if output["weakpass"] == True:
                 output["username"] = user
                 output["password"] = passwd
