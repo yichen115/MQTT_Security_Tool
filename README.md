@@ -3,7 +3,9 @@
 
 ## 使用方法
 
-在此处统一修改参数![params](img/params.png)
+在此处统一修改参数
+
+![params](img/params.png)
 
 运行即可
 
